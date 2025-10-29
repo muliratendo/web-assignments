@@ -1,0 +1,32 @@
+body{
+    background-color: azure;
+}
+.title {
+    color: #200e00cb;
+    font-size: 60px;
+}
+.content {
+    font-size: 40px;
+    color: #200E00;
+}
+.general{
+    background-color: beige;
+    margin: auto;
+    width: 67%;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-top: 30px;
+    padding: 1%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+    text-decoration-color: azure;
+}
+ul.content{
+    list-style-type: none;
+}

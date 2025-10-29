@@ -1,30 +1,42 @@
 body{
-    background-color: #7491b0;
+    background-color: azure;
+    font-size: 25px;
 }
 h2{
     text-align: center;
-    color: black;
+    color: #200e00cb;
 }
 .login_form{
+    background-color: beige;
     display: block;
     margin: auto;
     width: 30%;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
 }
-input, label{
-    width: 70%;
+label {
     margin-left: 45px;
+}
+input{
+    width: 70%;
+    height: 20px;
+    margin-left: 45px;
+    background-color: azure;
+    border: 1px solid black;
+    border-radius: 2px;
 }
 #togglePassword{
     border: 1px inset black;
-    border-radius: 5px;
-    background-color: grey;
+    border-radius: 2px;
+    background-color: azure;
 }
 #submit{
     display: block;
     margin-left: 20%;
     width: 60%;
-    border: 2.5px inset rgb(255, 255, 255);
+    border: 2.5px groove rgb(255, 255, 255);
     border-collapse: collapse;
     border-radius: 5px;
-    background-color: grey;
+    background-color: azure;
 }

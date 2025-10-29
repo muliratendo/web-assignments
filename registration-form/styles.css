@@ -1,5 +1,5 @@
 body{
-    background-color: antiquewhite;
+    background-color: azure;
 }
 .form{
     display: block;
@@ -15,14 +15,18 @@ fieldset {
   }
 legend {
     font-weight: bold;
-    color: #adaeaf;
+    color: #200e00cb;;
     padding: 0 10px;
     margin-bottom: -25px;
 }
- input {
+input {
     margin-bottom: 10px;
+    height: 20px;
+    background-color: azure;
+    border: 1px solid black;
+    border-radius: 2px;
 }
- p {
+p {
     margin-bottom: 8px;
 }
 #control {

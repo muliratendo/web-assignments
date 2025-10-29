@@ -1,5 +1,5 @@
 body{
-    background-color: #7491b0;
+    background-color: azure;
 }
 .frnds_contacts{
     display: block;
@@ -10,16 +10,18 @@ h2{
     text-align: center;
     color: black;
 }
-table{
-    border: 2px ridge rgb(125, 122, 122);
+table, th, td {
+    background-color: beige;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table {
     width: 100%;
     height: 100%;
 }
 th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-    border-radius: 10px;
-    background-color: #96D4D4;
+    /* background-color: #96D4D4;
+    border: 1px solid black; */
 }
 td{
     text-indent: 1em;
