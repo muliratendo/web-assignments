@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up Form</title>
+    <link rel="icon" type="image/svg" href="./images/circle-user-solid-full.svg">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="form">
+        <fieldset>
+            <legend>Signup Page</legend>
+            <form action="" autocomplete="on">
+                <p>-Personal Details-</p>
+                <label>First Name: </label>
+                <input type="text" name="fname" placeholder="Tendo"><br>
+                <label>Last Name: </label>
+                <input type="text" name="lname" placeholder="Mulira"><br>
+                <label for="gender">Gender</label>
+                <input type="radio" name="gender" value="female"><label>female</label>
+                <input type="radio" name = "gender" value="male"><label>Male</label><br>
+                <label>Email: </label>
+                <input type="email" name="email" placeholder="muliratendo@stud.umu.ac.ug"><br>
+                <label for="profilePhoto">Profile Photo:</label>
+                <input type="file" id="profilePhoto">
+
+                <p>-Payment Method-</p>
+                <input type="radio" name="payment" value="cash"><label>Cash</label>
+                <input type="radio" name="payment" value="cheque"><label>Cheque</label>
+                <input type="radio" name="payment" value="credit"><label>Credit</label>
+
+                <p>How would want us to communicate:</p>
+                <input type="checkbox" name="email" value="yes"><label>Email</label><br/>
+                <input type="checkbox" name="phone" value="yes"><label>phone</label><br/>
+                <input type="checkbox" name="newsletter" value="yes"><label>newsletter</label><br/><br/>
+
+                <label>Password: </label>
+                <input type="password" name="userpassword"  placeholder="********"><br>
+
+                <input type="submit" value="Submit" id="control">&nbsp;&nbsp;
+                <input type ="reset" value="Clear" id="control">
+            </form>
+        </fieldset>
+    </div>
+</body>
+</html>

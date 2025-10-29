@@ -1,0 +1,37 @@
+body{
+    text-align: center;
+}
+#tbl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    overflow-x: auto;
+}
+tr:hover {
+    background-color: rgb(255, 218, 56);
+}
+td, th {
+    border: 1px solid #0a0a0a;
+    text-align: left;
+    padding: 8px;
+    vertical-align: top;
+    padding-bottom: 15px;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+tr:hover:nth-child(even) {
+    background-color: #ff3636;
+}
+#pad{
+    padding-bottom: 50px;
+}
+
+#pad1{
+    padding-bottom: 80px;
+}

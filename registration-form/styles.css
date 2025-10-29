@@ -1,0 +1,30 @@
+body{
+    background-color: antiquewhite;
+}
+.form{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+fieldset {
+    border: 1px solid #333;
+    padding: 5%;
+    margin: 0px;
+    width: 87%;
+    background-color: beige;
+  }
+legend {
+    font-weight: bold;
+    color: #adaeaf;
+    padding: 0 10px;
+    margin-bottom: -25px;
+}
+ input {
+    margin-bottom: 10px;
+}
+ p {
+    margin-bottom: 8px;
+}
+#control {
+    width: 80px;
+}

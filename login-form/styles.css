@@ -1,0 +1,30 @@
+body{
+    background-color: #7491b0;
+}
+h2{
+    text-align: center;
+    color: black;
+}
+.login_form{
+    display: block;
+    margin: auto;
+    width: 30%;
+}
+input, label{
+    width: 70%;
+    margin-left: 45px;
+}
+#togglePassword{
+    border: 1px inset black;
+    border-radius: 5px;
+    background-color: grey;
+}
+#submit{
+    display: block;
+    margin-left: 20%;
+    width: 60%;
+    border: 2.5px inset rgb(255, 255, 255);
+    border-collapse: collapse;
+    border-radius: 5px;
+    background-color: grey;
+}
